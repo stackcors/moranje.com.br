@@ -1,0 +1,126 @@
+/* markdown.css */
+
+.markdown {
+    font-size: 14px;
+    line-height: 1.75;
+    color: hsl(var(--foreground));
+  }
+  
+  /* Titles */
+  .markdown h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .markdown h2 {
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-top: 1.75rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .markdown h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  /* Paragraph */
+  .markdown p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+  }
+  
+  /* Bold */
+  .markdown strong {
+    font-weight: 600;
+  }
+  
+  /* Lists */
+  .markdown ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+    list-style-type: disc;
+  }
+  
+  .markdown ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+    list-style-type: decimal;
+  }
+  
+  .markdown li {
+    margin-bottom: 0.4rem;
+  }
+  
+  /* Links */
+  .markdown a {
+    color: hsl(var(--primary));
+    text-decoration: underline;
+  }
+  
+  /* Blockquote */
+  .markdown blockquote {
+    border-left: 4px solid hsl(var(--border));
+    padding-left: 1rem;
+    margin: 1rem 0;
+    opacity: 0.8;
+    font-style: italic;
+  }
+  
+  /* Inline code */
+  .markdown code {
+    background: hsl(var(--secondary));
+    padding: 0.15rem 0.35rem;
+    border-radius: 6px;
+    font-size: 12px;
+    font-family: monospace;
+  }
+  
+  /* Code block */
+  .markdown pre {
+    background: #09090b;
+    color: white;
+    padding: 1rem;
+    border-radius: 12px;
+    overflow-x: auto;
+    margin: 1rem 0;
+  }
+  
+  .markdown pre code {
+    background: transparent;
+    padding: 0;
+  }
+  
+  /* Table */
+  .markdown table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+  }
+  
+  .markdown th,
+  .markdown td {
+    border: 1px solid hsl(var(--border));
+    padding: 0.75rem;
+    text-align: left;
+  }
+  
+  .markdown thead {
+    background: hsl(var(--secondary));
+  }
+  
+  /* HR */
+  .markdown hr {
+    margin: 2rem 0;
+    border-color: hsl(var(--border));
+  }
+  
+  /* Image */
+  .markdown img {
+    border-radius: 12px;
+    margin: 1rem 0;
+  }
